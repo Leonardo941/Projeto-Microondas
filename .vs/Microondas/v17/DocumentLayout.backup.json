@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\dev\\dotnet\\benner\\Microondas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|c:\\dev\\dotnet\\benner\\microondas\\microondas\\microondas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|solutionrelative:microondas\\microondas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|c:\\dev\\dotnet\\benner\\microondas\\microondas\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|solutionrelative:microondas\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|c:\\dev\\dotnet\\benner\\microondas\\microondas\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|solutionrelative:microondas\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|c:\\dev\\dotnet\\benner\\microondas\\microondas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85E5BE16-BE97-462C-882F-02A428D1B67D}|Microondas\\Microondas.csproj|solutionrelative:microondas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "Microondas\\wwwroot\\index.html",
+              "ToolTip": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\wwwroot\\index.html",
+              "RelativeToolTip": "Microondas\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-13T19:46:48.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microondas",
+              "DocumentMoniker": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\Microondas.csproj",
+              "RelativeDocumentMoniker": "Microondas\\Microondas.csproj",
+              "ToolTip": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\Microondas.csproj",
+              "RelativeToolTip": "Microondas\\Microondas.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T16:42:14.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\wwwroot\\js\\script.js",
+              "RelativeDocumentMoniker": "Microondas\\wwwroot\\js\\script.js",
+              "ToolTip": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\wwwroot\\js\\script.js",
+              "RelativeToolTip": "Microondas\\wwwroot\\js\\script.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T16:44:02.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\Program.cs",
+              "RelativeDocumentMoniker": "Microondas\\Program.cs",
+              "ToolTip": "C:\\dev\\dotnet\\benner\\Microondas\\Microondas\\Program.cs",
+              "RelativeToolTip": "Microondas\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:39:18.528Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

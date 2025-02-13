@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Micro-ondas</title>
+</head>
+<body>
+    <div class="microondas">
+        <div class="porta" id="porta"></div>
+        <div class="painel">
+            <div class="contador">00:00</div>
+            <div class="programas">
+            </div>
+            <div class="numpad">
+                <div class="linha-numpad">
+                    <button class="button-numpad">1</button>
+                    <button class="button-numpad">2</button>
+                    <button class="button-numpad">3</button>
+                </div>
+                <div class="linha-numpad">
+                    <button class="button-numpad">4</button>
+                    <button class="button-numpad">5</button>
+                    <button class="button-numpad">6</button>
+                </div>
+                <div class="linha-numpad">
+                    <button class="button-numpad">7</button>
+                    <button class="button-numpad">8</button>
+                    <button class="button-numpad">9</button>
+                </div>
+                <div class="linha-numpad">
+                    <button class="button-numpad button-cadastrar">Cadastrar</button>
+                    <button class="button-numpad">0</button>
+                    <button class="button-numpad button-potencia">Potência</button>
+                </div>
+            </div>
+            <div class="funcoes">
+                <button class="button-funcoes cancela-pause">
+                    <div class="frase-button-funcoes">Cancela</div>
+                    <div class="frase-button-funcoes">Pausa</div>
+                </button>
+                <button class="button-funcoes inicia-adiciona">
+                    <div class="frase-button-funcoes">Inicia</div>
+                    <div class="frase-button-funcoes">+ 30 s</div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="error-message" id="error-message"></div>
+    <div class="sucess-message" id="sucess-message"></div>
+
+    <div id="modalCadastro" class="modal">
+        <div class="modal-content">
+            <h2>Cadastro de programas de aquecimento</h2>
+            <form id="formCadastro">
+                <div class="campo">
+                    <label>Nome do Programa:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="campo">
+                    <label>Alimento:</label>
+                    <input type="text" id="alimento" name="alimento"required>
+                </div>
+
+                <div class="campo">
+                    <label>Potência (1-10):</label>
+                    <input type="number" id="potencia" min="1" max="10" name="potencia"required>
+                </div>
+
+                <div class="campo">
+                    <label>Caractere de Aquecimento:</label>
+                    <input type="text" id="caractere" maxlength="1" name="caractere"required>
+                </div>
+                
+                <div class="campo">
+                    <label>Tempo (em segundos):</label>
+                    <input type="number" id="tempo" min="1" max="120" name="tempo"required>
+                </div>
+                
+                <div class="campo">
+                    <label>Instruções de Uso (Opcional):</label>
+                    <input type="text" id="instrucao" name="instrucao">
+                </div>
+                
+                <div class="modal-buttons">
+                    <button type="submit" class="button-salvar-programa">Salvar</button>
+                    <button type="button" class="button-cancelar-programa">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
